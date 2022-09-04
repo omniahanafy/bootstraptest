@@ -302,12 +302,11 @@ border-radius:20px ;
     border-bottom: 2px solid white ;
 }
 .profile .top h1{
-  margin-bottom: 10px;
-  font-weight: bold;
-    text-align: center;
-    border-left: 2px solid white ;
-    border-right: 2px solid white;
-    border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-left: 2px solid white ;
+  border-right: 2px solid white;
+  border-radius: 20px;
 }
 .profile .bottom{
   flex-direction: column;
@@ -339,7 +338,8 @@ border-radius:20px ;
 }
 
 .profile .bottom .left{
-  width: 90%;
+justify-content: center;
+  width: 100%;
   height: 100%;
   padding-top: 20px;
   display: flex;
