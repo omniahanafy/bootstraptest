@@ -87,11 +87,11 @@ font-size: large;
     }
     .about .top {
         margin: auto;
-        width: 30%;
+        width: 50%;
         border-bottom: 2px solid white ;
     }
     .about h1{
-        font-size: 18px;
+        font-size: 25px;
         text-align: center;
         border-left: 2px solid white ;
         border-right: 2px solid white;
@@ -169,11 +169,11 @@ font-size: large;
     }
     .product .top {
         margin: auto;
-        width: 40%;
+        width: 60%;
         border-bottom: 2px solid white ;
     }
     .product h1{
-        font-size: 18px;
+        font-size: 25px;
         text-align: center;
         border-left: 2px solid white ;
         border-right: 2px solid white;
@@ -298,11 +298,11 @@ border-radius:20px ;
   }
   .profile .top {
     margin: auto;
-    width: 40%;
+    width: 50%;
     border-bottom: 2px solid white ;
 }
 .profile .top h1{
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
   border-left: 2px solid white ;
   border-right: 2px solid white;
@@ -461,6 +461,12 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
   }
+  footer .bottom .social-links{
+
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
   footer .bottom .social-links a{
     display: flex;
     flex-wrap: wrap;
@@ -551,14 +557,17 @@ background-color: #222;
   }
   .gallary .top {
     margin: auto;
-    width: 40%;
+    width: 50%;
     border-bottom: 2px solid white ;
 }
 .gallary .top h1{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     border-left: 2px solid white ;
     border-right: 2px solid white;
     border-radius: 20px;
+}
+.gallary .allbottom .mytab{
+  width: 90% !important;
 }
 }
