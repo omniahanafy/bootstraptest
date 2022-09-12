@@ -401,6 +401,7 @@ footer .bottom .social-links {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
+margin: auto;
 }
 footer .bottom .social-links a{
   display: flex;
